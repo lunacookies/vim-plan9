@@ -3,7 +3,9 @@
 A colourscheme for vim that’s basically 
 [acme-colors](https://github.com/plan9-for-vimspace/acme-colors) 
 with a bunch of customisations. This colourscheme uses the 
-excellent [colortemplate]() by [lifepillar].
+excellent 
+[colortemplate](https://github.com/lifepillar/vim-colortemplate) 
+by [lifepillar](https://github.com/lifepillar).
 
 This colourscheme will work perfectly (meaning the colours are 
 exactly what they are meant to be) in GUIs and 16 colour terminals 
@@ -45,7 +47,7 @@ accuracy.
    `tmux-256color-italic` if you’re using 
    [tmux](https://github.com/tmux/tmux/wiki))
 1. Set your terminal emulator’s colours to those in the [Palette 
-   section]()
+   section](https://github.com/aramisgithub/vim-plan9#palette)
 1. Close and open your terminal emulator
 1. For best results ensure your terminal emulator’s font has a 
    dedicated italic style
