@@ -1,8 +1,40 @@
-# vim: ft=colortemplate
+# vim: set ft=colortemplate cursorcolumn nomodeline:
 Full name:  Plan9 for Vim
 Short name: plan9
 Author:     Aramis Razzaghipour <aramisnoah@gmail.com>
 Maintainer: Aramis Razzaghipour <aramisnoah@gmail.com>
 
 Background: light
+
+##
+## Palette
+##
+
+# Color name         Hex     256 8
+
+# Base
+Color: FG            #000000 ~   15
+Color: BG            #ffffeb ~   0
+
+# Normal
+Color: Black         #000000 ~   0
+Color: Red           #ad4f4f ~   1
+Color: Green         #468747 ~   2
+Color: Yellow        #8f7734 ~   3
+Color: Blue          #268bd2 ~   4
+Color: Magenta       #888aca ~   5
+Color: Cyan          #6aa7a8 ~   6
+Color: White         #f3f3d3 ~   7
+
+# Bright
+Color: BrightBlack   #878781 ~   8
+Color: BrightRed     #ffdddd ~   9
+Color: BrightGreen   #ebffeb ~   10
+Color: BrightYellow  #cdcdb9 ~   11
+Color: BrightBlue    #ebffff ~   12
+Color: BrightCyan    #a1eeed ~   14
+Color: BrightWhite   #ffffeb ~   15
+
+# Not enough space for a mid-green
+Color: MidGreen      #96d197 ~   13
 
