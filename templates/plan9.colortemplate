@@ -38,3 +38,33 @@ Color: BrightWhite   #ffffeb ~   15
 # Not enough space for a mid-green
 Color: MidGreen      #96d197 ~   13
 
+
+##
+## Highlight group definitions
+##
+
+# Base
+
+Normal FG BG
+
+# Syntax
+
+# Regular
+Group FG none
+
+# Bold
+Group FG none bold
+
+# Italic
+Group FG none italic
+
+# Other
+Group FG none
+
+# Interface
+Group FG BG   bold
+
+# Links
+
+Group -> OtherGroup
+
