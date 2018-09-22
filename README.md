@@ -51,3 +51,17 @@ accuracy.
    dedicated italic style
 1. Done!
 
+## Palette
+
+| Intensity         | Normal    | Intensity         | Bright    |
+| --:               | --        | --:               | --        |
+| 0                 | `#000000` | 8                 | `#878781` |
+| 1                 | `#ad4f4f` | 9                 | `#ffdddd` |
+| 2                 | `#468747` | 10                | `#ebffeb` |
+| 3                 | `#8f7734` | 11                | `#cdcdb9` |
+| 4                 | `#268bd2` | 12                | `#ebffff` |
+| 5                 | `#888aca` | 13                | `#96d197` |
+| 6                 | `#6aa7a8` | 14                | `#a1eeed` |
+| 7                 | `#f3f3d3` | 15                | `#ffffeb` |
+| Foreground colour | `#000000` | Background colour | `#ffffeb` |
+
