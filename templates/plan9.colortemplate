@@ -12,59 +12,86 @@ Background: light
 
 # Color name         Hex     256 8
 
-# Base
-Color: FG            #000000 ~   15
-Color: BG            #ffffeb ~   0
-
 # Normal
-Color: Black         #000000 ~   0
-Color: Red           #ad4f4f ~   1
-Color: Green         #468747 ~   2
-Color: Yellow        #8f7734 ~   3
-Color: Blue          #268bd2 ~   4
-Color: Magenta       #888aca ~   5
-Color: Cyan          #6aa7a8 ~   6
-Color: White         #f3f3d3 ~   7
+Color: Black        #000000 ~ 0
+Color: Red          #ad4f4f ~ 1
+Color: Green        #468747 ~ 2
+Color: Yellow       #8f7734 ~ 3
+Color: Blue         #268bd2 ~ 4
+Color: Magenta      #888aca ~ 5
+Color: Cyan         #6aa7a8 ~ 6
+Color: White        #f3f3d3 ~ 7
 
 # Bright
-Color: BrightBlack   #878781 ~   8
-Color: BrightRed     #ffdddd ~   9
-Color: BrightGreen   #ebffeb ~   10
-Color: BrightYellow  #cdcdb9 ~   11
-Color: BrightBlue    #ebffff ~   12
-Color: BrightCyan    #a1eeed ~   14
-Color: BrightWhite   #ffffeb ~   15
+Color: BrightBlack  #878781 ~ 8
+Color: BrightRed    #ffdddd ~ 9
+Color: BrightGreen  #ebffeb ~ 10
+Color: BrightYellow #cdcdb9 ~ 11
+Color: BrightBlue   #ebffff ~ 12
+Color: BrightCyan   #a1eeed ~ 14
+Color: BrightWhite  #ffffeb ~ 15
 
 # Not enough space for a mid-green
-Color: MidGreen      #96d197 ~   13
+Color: MidGreen     #96d197 ~ 13
 
 
 ##
 ## Highlight group definitions
 ##
 
-# Base
-
-Normal FG BG
-
 # Syntax
 
 # Regular
-Group FG none
+Normal       Black       BrightWhite
+Cursor       Black       BrightWhite reverse
 
 # Bold
-Group FG none bold
+Directory    Black       none        bold
+Identifier   Black       none        bold
+PreProc      Black       none        bold
+Special      Black       none        bold
+Title        Black       none        bold
+Type         Black       none        bold
 
 # Italic
-Group FG none italic
+Comment      BrightBlack none        italic
+Constant     Black       none        italic
+Function     Black       none        italic
+Statement    Black       none        italic
 
 # Other
-Group FG none
+Error        Black       BrightRed
 
 # Interface
-Group FG BG   bold
+
+CursorLineNr Red         none
+Folded       Black       White       italic
+IncSearch    Black       BrightCyan
+LineNr       BrightBlack none
+MatchParen   Blue        BrightYellow
+ModeMsg      Green       BrightGreen
+NonText      BrightBlack none
+Pmenu        Green       BrightGreen
+PmenuSbar    Green       MidGreen
+PmenuSel     BrightGreen Green
+PmenuThumb   BrightGreen Green
+Search       Black       BrightBlue
+StatusLine   Black       BrightBlue
+StatusLineNC Black       White
+Visual       none        White
+WildMenu     Black       White
 
 # Links
 
-Group -> OtherGroup
+ColorColumn       -> CursorLine
+Conceal           -> Normal
+CursorColumn      -> Visual
+CursorLine        -> Visual
+ErrorMsg          -> Error
+FoldColumn        -> LineNr
+Question          -> Comment
+SignColumn        -> Normal
+VertSplit         -> StatusLineNC
+vimAutoCmdSfxList -> Type
+vimIsCommand      -> Statement
 

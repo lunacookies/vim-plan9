@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for file in *; do
+for file in **/*.terminfo; do
   tic $file
 done
 
