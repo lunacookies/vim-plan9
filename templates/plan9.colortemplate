@@ -42,44 +42,58 @@ Color: MidGreen     #96d197 ~ 13
 # Syntax
 
 # Base
-Normal       Black       BrightWhite
-Cursor       White       Black
-Error        Black       BrightRed
+Normal                    Black       BrightWhite
+Cursor                    White       Black
+Error                     Black       BrightRed
 
 # Regular
-Directory    Black       none
-Identifier   Black       none
-PreProc      Black       none
-Special      Black       none
-Title        Black       none
-Type         Black       none
-Constant     Black       none
-Function     Black       none
+Constant                  Black       none
+Directory                 Black       none
+Function                  Black       none
+Identifier                Black       none
+PreProc                   Black       none
+Special                   Black       none
+Title                     Black       none
+Type                      Black       none
+markdownH1                Black       none  bold
+markdownH1Delimiter       Black       none  bold
+markdownH2                Black       none  bold
+markdownH2Delimiter       Black       none  bold
+markdownH3                Black       none  bold
+markdownH3Delimiter       Black       none  bold
+markdownH4                Black       none  bold
+markdownH4Delimiter       Black       none  bold
+markdownH5                Black       none  bold
+markdownH5Delimiter       Black       none  bold
+markdownH6                Black       none  bold
+markdownH6Delimiter       Black       none  bold
+markdownListMarker        Black       none
+markdownOrderedListMarker Black       none
 
 # Bold
-Statement    Black       none         bold
+Statement                 Black       none  bold
 
 # Italic
-Comment      BrightBlack none         italic
+Comment                   BrightBlack none  italic
 
 # Interface
 
-CursorLineNr Red         none
-Folded       Black       White        italic
-IncSearch    Black       BrightCyan
-LineNr       BrightBlack none
-MatchParen   Blue        BrightYellow
-ModeMsg      Green       BrightGreen
-NonText      BrightBlack none
-Pmenu        Green       BrightGreen
-PmenuSbar    Green       MidGreen
-PmenuSel     BrightGreen Green
-PmenuThumb   BrightGreen Green
-Search       Black       BrightBlue
-StatusLine   Black       BrightBlue
-StatusLineNC Black       White
-Visual       none        White
-WildMenu     Black       White
+CursorLineNr              Red         none
+Folded                    Black       White italic
+IncSearch                 Black       BrightCyan
+LineNr                    BrightBlack none
+MatchParen                Blue        BrightYellow
+ModeMsg                   Green       BrightGreen
+NonText                   BrightBlack none
+Pmenu                     Green       BrightGreen
+PmenuSbar                 Green       MidGreen
+PmenuSel                  BrightGreen Green
+PmenuThumb                BrightGreen Green
+Search                    Black       BrightBlue
+StatusLine                Black       BrightBlue
+StatusLineNC              Black       White
+Visual                    none        White
+WildMenu                  Black       White
 
 # Links
 
