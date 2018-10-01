@@ -28,7 +28,7 @@ Color: White        #f3f3d3 ~ 7
 Color: BrightBlack  #878781 ~ 8
 Color: BrightRed    #ffdddd ~ 9
 Color: BrightGreen  #ebffeb ~ 10
-Color: BrightYellow #cdcdb9 ~ 11
+Color: BrightYellow #edeea5 ~ 11
 Color: BrightBlue   #ebffff ~ 12
 Color: BrightCyan   #a1eeed ~ 14
 Color: BrightWhite  #ffffeb ~ 15
@@ -80,6 +80,7 @@ Comment                   BrightBlack none  italic
 
 # Interface
 
+CursorLine                none        White
 CursorLineNr              Red         none
 Folded                    Black       White italic
 IncSearch                 Black       BrightCyan
@@ -97,15 +98,14 @@ StatusLineNC              Black       White
 TabLine                   Black       White
 TabLineFill               Black       White
 TabLineSel                Black       BrightBlue
-Visual                    none        White
+Visual                    none        BrightYellow
 WildMenu                  Black       White
 
 # Links
 
 ColorColumn       -> CursorLine
 Conceal           -> Normal
-CursorColumn      -> Visual
-CursorLine        -> Visual
+CursorColumn      -> CursorLine
 ErrorMsg          -> Error
 FoldColumn        -> LineNr
 Question          -> Comment
