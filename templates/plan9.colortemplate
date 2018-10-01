@@ -94,6 +94,9 @@ PmenuThumb                BrightGreen Green
 Search                    Black       BrightBlue
 StatusLine                Black       BrightBlue
 StatusLineNC              Black       White
+TabLine                   Black       White
+TabLineFill               Black       White
+TabLineSel                Black       BrightBlue
 Visual                    none        White
 WildMenu                  Black       White
 
