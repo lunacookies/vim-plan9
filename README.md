@@ -56,6 +56,15 @@ accuracy.
      - Or `#ffffff` · pure white, allowing for [easy context 
        switching][cdm] between editor and shell, higher contrast, 
        and more closely matching what Plan9 actually looks like
+   - This can be all automated by using one of the included colour 
+     themes (found in `termthemes/`) for both Terminal.app and 
+     iTerm2
+1. Make sure your terminal emulator is set to *not* show bold in a 
+   bright color
+   - This is located for iTerm2: Preferences > Profiles > Colors > 
+     Uncheck ‘Bold’ under ‘Background’
+   - Terminal.app: Preferences > Profiles > Text > Text > Uncheck 
+     ‘Use bright colours for bold text’
 1. Close and open your terminal emulator
 1. For best results ensure your terminal emulator’s font has a 
    dedicated italic style
