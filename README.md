@@ -49,7 +49,13 @@ accuracy.
    section][palettesec]
    - If you have a true-colour terminal and are using 
      `termguicolors` this is not necessary, but still recommended
-   - If you want to theme your terminal with vim-plan9’s colours
+   - If you want to theme your terminal with vim-plan9’s colours a 
+     foreground of `#000000` and a background of either:
+     - `#ffffeb` · the cream colour background that this vim theme 
+       uses, good for making the editor and the terminal merge
+     - Or `#ffffff` · pure white, allowing for [easy context 
+       switching][cdm] between editor and shell, higher contrast, 
+       and more closely matching what Plan9 actually looks like
 1. Close and open your terminal emulator
 1. For best results ensure your terminal emulator’s font has a 
    dedicated italic style
@@ -82,6 +88,7 @@ accuracy.
 [vim-plug]: https://github.com/junegunn/vim-plug
 [tmux]: https://github.com/tmux/tmux/wiki
 [palettesec]: https://github.com/aramisgithub/vim-plan9#palette
+[cdm]: https://en.wikipedia.org/wiki/Context-dependent_memory
 [nexus]: https://www.fontshop.com/families/ff-nexus-typewriter
 [operator]: https://www.typography.com/fonts/operator/overview/
 [iosevka]: https://be5invis.github.io/Iosevka/
