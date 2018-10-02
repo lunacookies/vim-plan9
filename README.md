@@ -96,7 +96,7 @@ accuracy.
 [lifepillar]: https://github.com/lifepillar
 [vim-plug]: https://github.com/junegunn/vim-plug
 [tmux]: https://github.com/tmux/tmux/wiki
-[palettesec]: https://github.com/aramisgithub/vim-plan9#palette
+[palettesec]: https://github.com/arzg/vim-plan9#palette
 [cdm]: https://en.wikipedia.org/wiki/Context-dependent_memory
 [nexus]: https://www.fontshop.com/families/ff-nexus-typewriter
 [operator]: https://www.typography.com/fonts/operator/overview/
