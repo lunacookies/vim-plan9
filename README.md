@@ -11,9 +11,9 @@ using the included palette and terminfo. It *will* work in 256
 colour terminals, but not without a large degration in colour 
 accuracy.
 
-# Installation
+## Installation
 
-# GUI
+### GUI
 
 1. Install how you would install any other plugin
 1. Remove all colourscheme-related config from your `vimrc`
@@ -23,7 +23,7 @@ accuracy.
    ```
 1. Done!
 
-# Terminal
+### Terminal
 
 1. Install how you would install any other plugin
 1. Remove all colourscheme-related config from your `vimrc`
@@ -46,7 +46,7 @@ accuracy.
 1. Set your terminal emulator to use `xterm-256color-italic`
    - Or `tmux-256color-italic` if you’re using [tmux][tmux])
 1. Set your terminal emulator’s colours to those in the [Palette 
-   section][palettesec]
+section][palettesec]
    - If you have a true-colour terminal and are using 
      `termguicolors` this is not necessary, but still recommended
    - If you want to theme your terminal with vim-plan9’s colours a 
@@ -60,14 +60,14 @@ accuracy.
      themes (found in `termthemes/`) for both Terminal.app and 
      iTerm2
 1. Make sure your terminal emulator is set to *not* show bold in a 
-   bright color
+bright color
    - This is located for iTerm2: Preferences > Profiles > Colors > 
      Uncheck ‘Bold’ under ‘Background’
    - Terminal.app: Preferences > Profiles > Text > Text > Uncheck 
      ‘Use bright colours for bold text’
 1. Close and open your terminal emulator
 1. For best results ensure your terminal emulator’s font has a 
-   dedicated italic style
+dedicated italic style
    - [Nexus Typewriter][nexus], [Operator Mono][operator], 
      [Iosevka][iosevka], and [Lucida Console][lucida] all look 
      really nice with this colourscheme
@@ -75,7 +75,7 @@ accuracy.
      of* colourschemes and fonts
 1. Done!
 
-# Palette
+## Palette
 
 | Intensity         | Normal    | Intensity         | Bright    |
 | --:               | --        | --:               | --        |
