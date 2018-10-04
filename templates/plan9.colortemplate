@@ -8,9 +8,9 @@ Background:      light
 Terminal Colors: 16
 Option Prefix:   use_shortname_by_default
 
-##
-## Palette
-##
+#
+# Palette
+#
 
 # Color name         Hex     256 8
 
@@ -36,10 +36,9 @@ Color: BrightWhite  #ffffeb ~ 15
 # Not enough space for a mid-green
 Color: MidGreen     #96d197 ~ 13
 
-
-##
-## Highlight group definitions
-##
+#
+# Highlight group definitions
+#
 
 # Syntax
 
@@ -113,4 +112,3 @@ SignColumn        -> Normal
 VertSplit         -> StatusLineNC
 vimAutoCmdSfxList -> Type
 vimIsCommand      -> Statement
-

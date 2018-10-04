@@ -3,4 +3,3 @@
 for file in **/*.terminfo; do
   tic $file
 done
-

@@ -11,9 +11,9 @@ using the included palette and terminfo. It *will* work in 256
 colour terminals, but not without a large degration in colour 
 accuracy.
 
-## Installation
+# Installation
 
-### GUI
+# GUI
 
 1. Install how you would install any other plugin
 1. Remove all colourscheme-related config from your `vimrc`
@@ -23,7 +23,7 @@ accuracy.
    ```
 1. Done!
 
-### Terminal
+# Terminal
 
 1. Install how you would install any other plugin
 1. Remove all colourscheme-related config from your `vimrc`
@@ -75,7 +75,7 @@ accuracy.
      of* colourschemes and fonts
 1. Done!
 
-## Palette
+# Palette
 
 | Intensity         | Normal    | Intensity         | Bright    |
 | --:               | --        | --:               | --        |
@@ -102,4 +102,3 @@ accuracy.
 [operator]: https://www.typography.com/fonts/operator/overview/
 [iosevka]: https://be5invis.github.io/Iosevka/
 [lucida]: https://lucidafonts.com/collections/monospaced
-
